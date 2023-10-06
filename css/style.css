@@ -1,0 +1,138 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family:arial;
+	}
+	#register-sec{
+		padding-top:5%;
+	}
+	/* .container{ */
+		/* width:70%; */
+		/* margin:auto; */
+	/* } */
+	a{
+		text-decoration:none;
+	}
+	.main-row{
+		border:2px solid #1db1cf;
+	}
+	.row{
+		background-color:#1db1cf;
+		padding:2%;
+	}
+	.row h2{
+		font-size:2rem;
+		color:#fff;
+	}
+	.cont-cont{
+		background-color:#1db1cf;
+		display:flex;
+		align-items:center;	
+		
+		
+		width:100%;
+		
+		border-radius:5px;
+		border:1px solid blue;
+	}
+	.cont-icon i{
+		padding-right:10%;
+		color:#fff;
+		font-size:25px;
+		
+		
+	}
+	.cont-icon{
+		border-right:1px solid blue;
+		padding:10px;
+	}
+	.cont-explain{
+		padding-left:5%;
+		color:#fff;
+		cursor:pointer;
+	}
+	.cont-cont a{
+		color:#fff;
+	}
+	/* .cont-row{ */
+		/* display:flex; */
+	/* } */
+	/* .cont-col-left{ */
+		/* width:35%; */
+		/* padding:2%; */
+	/* } */
+	/* .cont-col-right{ */
+		/* width:65%; */
+		/* padding:2% 5%; */
+	/* }  */
+	.cont-form{
+		padding-left:5%;
+		/* border-left:2px solid #1db1cf; */
+	}
+	.form-input{
+		display:flex;
+		justify-content:space-between;
+		align-items:center;
+		
+		padding:10px 0;
+	}
+	.input-cont{
+		display:flex;
+		border:2px solid #999;
+		border-radius:5px;
+		/* padding:10px; */
+		width:70%;
+	}
+	.input-icon{
+		padding:10px;
+		border-right:1px solid #999;
+		background-color:#ccc;
+	}
+	.input-value{
+		width:100%;
+	}
+	.input-value input{
+		border:none;
+		width:100%;
+		padding:12px;
+	}
+	
+	
+	/* .btn{ */
+		/* display:flex; */
+		/* justify-content:flex-end; */
+	/* } */
+	.btn-cont{
+		padding:2px;
+	}
+	.btn-right{
+		display:flex;
+		align-items:center;
+		
+		border:1px solid #000;
+		border-radius:5px;
+		background-color:#47ed5d;
+	}
+	.btn-left{
+		display:flex;
+		align-items:center;
+		
+		border:1px solid #000;
+		border-radius:5px;
+		background-color:#d42a17;
+	}
+	.btn-text>a,.btn-icon>a,.btn-icon-right>a{
+		color:#fff;
+	}
+	.btn-icon{
+		padding:8px;
+		background-color:#a13428;
+	}
+	.btn-icon-right{
+		padding:8px;
+		background-color:#26a336;
+	}
+	.btn-text{
+		padding:5px 20px;
+	}
